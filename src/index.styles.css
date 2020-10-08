@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Montserrat Regular";
+  font-weight: 400;
+  src: local("Montserrat"), local("Montserrat Regular"),
+    url("./assets/fonts/montserrat-400.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Montserrat Semibold";
+  font-weight: 600;
+  src: local("Montserrat Semibold"),
+    url("./assets/fonts/montserrat-600.woff2") format("woff2");
+}
+
+body {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 676px) {
+  body {
+    font-size: 16px;
+  }
+}
